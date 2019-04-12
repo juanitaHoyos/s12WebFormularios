@@ -21,5 +21,11 @@ app.get('/', function(request, response){
 });
 
 
+app.post('/login', function(request, response){
+
+    console.log('hola');
+    response.send('hola');
+});
+
 //aqui se le dice el puerto y las rutas
 app.listen(3000);
